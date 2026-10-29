@@ -25,7 +25,7 @@ write down what you were thinking *during* the game before you turn the engine o
 1. ______   ______    2. ______   ______    3. ______   ______
 4. ______   ______    5. ______   ______    6. ______   ______
 7. ______   ______    8. ______   ______    9. ______   ______
-10. ______   ______
+10. ______   ______    11. ______   ______    12. ______   ______
 
 **Where did theory end?** Move ______
 
@@ -34,11 +34,13 @@ write down what you were thinking *during* the game before you turn the engine o
 - [ ] Pieces developed
 - [ ] King castled / safe
 - [ ] Rooks connected
+- [ ] No pieces left hanging
 
 ## Move by move (critical moments)
 
 | Your move | Opponent's move | What I was thinking | ? / ! / !! / ?? | Engine says |
 |---|---|---|---|---|
+| | | | | |
 | | | | | |
 | | | | | |
 | | | | | |
@@ -69,6 +71,7 @@ write down what you were thinking *during* the game before you turn the engine o
 
 **Notes**
 
+____________________
 ____________________
 ____________________
 ____________________

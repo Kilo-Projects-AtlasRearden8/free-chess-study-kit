@@ -15,6 +15,10 @@ pattern again and again is how you learn it.
 | 6 | | | ☐ Fork ☐ Pin ☐ Skewer ☐ Discovered attack ☐ Double check ☐ Deflection ☐ Decoy ☐ Overloading ☐ Interference ☐ X-ray | ☐ Won material ☐ Won game ☐ Drawing chance ☐ Missed it | |
 | 7 | | | ☐ Fork ☐ Pin ☐ Skewer ☐ Discovered attack ☐ Double check ☐ Deflection ☐ Decoy ☐ Overloading ☐ Interference ☐ X-ray | ☐ Won material ☐ Won game ☐ Drawing chance ☐ Missed it | |
 | 8 | | | ☐ Fork ☐ Pin ☐ Skewer ☐ Discovered attack ☐ Double check ☐ Deflection ☐ Decoy ☐ Overloading ☐ Interference ☐ X-ray | ☐ Won material ☐ Won game ☐ Drawing chance ☐ Missed it | |
+| 9 | | | ☐ Fork ☐ Pin ☐ Skewer ☐ Discovered attack ☐ Double check ☐ Deflection ☐ Decoy ☐ Overloading ☐ Interference ☐ X-ray | ☐ Won material ☐ Won game ☐ Drawing chance ☐ Missed it | |
+| 10 | | | ☐ Fork ☐ Pin ☐ Skewer ☐ Discovered attack ☐ Double check ☐ Deflection ☐ Decoy ☐ Overloading ☐ Interference ☐ X-ray | ☐ Won material ☐ Won game ☐ Drawing chance ☐ Missed it | |
+| 11 | | | ☐ Fork ☐ Pin ☐ Skewer ☐ Discovered attack ☐ Double check ☐ Deflection ☐ Decoy ☐ Overloading ☐ Interference ☐ X-ray | ☐ Won material ☐ Won game ☐ Drawing chance ☐ Missed it | |
+| 12 | | | ☐ Fork ☐ Pin ☐ Skewer ☐ Discovered attack ☐ Double check ☐ Deflection ☐ Decoy ☐ Overloading ☐ Interference ☐ X-ray | ☐ Won material ☐ Won game ☐ Drawing chance ☐ Missed it | |
 
 **Tactics I keep missing**
 1. ____________________
@@ -37,3 +41,8 @@ pattern again and again is how you learn it.
 
 **Puzzle streak**
 Days in a row I solved at least 3 tactics puzzles: _____ / Best streak: _____
+
+**Weekly summary**
+- [ ] This week I found at least 5 tactics
+- [ ] I won at least one game with a tactic
+- [ ] I reviewed my mistakes and logged them

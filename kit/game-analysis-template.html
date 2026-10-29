@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Free Chess Study Kit — Asdale Dynamics, LLC</title>
-<style>*Print styles for the Free Chess Study Kit. Each HTML sheet inlines this CSS,
+<style>Print styles for the Free Chess Study Kit. Each HTML sheet inlines this CSS,
 so a printed sheet needs nothing but a printer — no fonts to install, no
-network, no account.*
+network, no account.
 
 :root {
   --ink: #111;
@@ -16,6 +16,7 @@ network, no account.*
   --panel: #f5f5f5;
 }
 
+/* Paper size: change to A4 for international printing */
 @page {
   size: Letter;
   margin: 16mm 14mm 18mm 14mm;
@@ -70,6 +71,9 @@ table {
   margin: 10px 0 20px 0;
   page-break-inside: auto;
 }
+tr {
+  page-break-inside: avoid;
+}
 th, td {
   border: 1px solid var(--line);
   padding: 10px 12px;
@@ -83,21 +87,6 @@ th {
 }
 td { min-height: 46px; }
 tr:first-child td { min-height: 0; }
-.avoid-break { page-break-inside: avoid; }
-.fill {
-  border-bottom: 1.5px solid var(--ink);
-  display: inline-block;
-  min-width: 200px;
-  height: 24px;
-}
-.muted { color: var(--muted); font-size: 13px; }
-.card {
-  border: 1px solid var(--line);
-  padding: 14px 18px;
-  margin: 14px 0;
-  border-radius: 6px;
-  background: var(--paper);
-}
 .task {
   list-style: none;
   padding-left: 6px;
@@ -111,31 +100,13 @@ tr:first-child td { min-height: 0; }
   vertical-align: middle;
   accent-color: var(--ink);
 }
-.big-checkbox {
-  width: 24px;
-  height: 24px;
-  vertical-align: middle;
-  margin-right: 8px;
-  accent-color: var(--ink);
-}
-.note-box {
-  border: 1px solid var(--line);
-  min-height: 70px;
-  padding: 10px 14px;
-  margin: 8px 0 18px 0;
-  border-radius: 6px;
-}
-.small { font-size: 13px; color: var(--muted); }
-.section-break { page-break-before: always; }
 @media print {
   body { font-size: 15px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  .screen-only { display: none; }
   a { color: var(--ink); text-decoration: none; }
 }
 @media screen {
   body { padding: 12px; background: #fafafa; }
-}
-</style>
+}</style>
 </head>
 <body>
 <h1>Game Analysis Template</h1>
@@ -158,7 +129,7 @@ tr:first-child td { min-height: 0; }
 <p>1. ______   ______    2. ______   ______    3. ______   ______</p>
 <p>4. ______   ______    5. ______   ______    6. ______   ______</p>
 <p>7. ______   ______    8. ______   ______    9. ______   ______</p>
-<p>10. ______   ______</p>
+<p>10. ______   ______    11. ______   ______    12. ______   ______</p>
 <p><strong>Where did theory end?</strong> Move ______</p>
 <p><strong>Opening goals met?</strong></p>
 <ul class='task'>
@@ -166,10 +137,12 @@ tr:first-child td { min-height: 0; }
 <li><input type='checkbox' disabled > Pieces developed</li>
 <li><input type='checkbox' disabled > King castled / safe</li>
 <li><input type='checkbox' disabled > Rooks connected</li>
+<li><input type='checkbox' disabled > No pieces left hanging</li>
 </ul>
 <h2>Move by move (critical moments)</h2>
 <table>
 <tr><th>Your move</th><th>Opponent's move</th><th>What I was thinking</th><th>? / ! / !! / ??</th><th>Engine says</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
@@ -193,6 +166,7 @@ tr:first-child td { min-height: 0; }
 <li><input type='checkbox' disabled > Play the opening again in my next 3 games</li>
 </ul>
 <p><strong>Notes</strong></p>
+<p>____________________</p>
 <p>____________________</p>
 <p>____________________</p>
 <p>____________________</p>

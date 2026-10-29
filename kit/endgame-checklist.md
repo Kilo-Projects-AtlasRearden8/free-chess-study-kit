@@ -14,6 +14,7 @@ paper.
 - [ ] I know key squares and can win with king + pawn vs king
 - [ ] I know rook-pawn stalemate traps and how to avoid them
 - [ ] I can defend a pawn down with the king in the square
+- [ ] I know when to advance my king and when to wait
 
 ## Rook endgames
 
@@ -23,6 +24,7 @@ paper.
 - [ ] Lucena position: I can build the bridge and win
 - [ ] Philidor position: I can draw with the rook on the third rank
 - [ ] I know when to trade rooks into a won/lost pawn endgame
+- [ ] I know the "cut-off" rule: keep the enemy king cut off by a file or rank
 
 ## Minor piece endgames
 
@@ -30,6 +32,7 @@ paper.
 - [ ] Knights are stronger in closed positions and with pawns on one side
 - [ ] Bishop pair: two bishops can force the win in many endgames
 - [ ] I know knight outposts and how to build them
+- [ ] I know how to stop a lone pawn with a bishop or knight
 
 ## Basic checkmates (practice until you can do them blindfold)
 
@@ -43,6 +46,7 @@ paper.
 - [ ] With a big material advantage, watch for stalemate before every move
 - [ ] King + Queen vs King: don't box the enemy king in with no move
 - [ ] King + Rook vs King: same idea, one rank at a time
+- [ ] Watch for stalemate when the enemy king is in the corner
 
 ## Before I resign or agree a draw
 
@@ -50,3 +54,10 @@ paper.
 - [ ] Does my opponent have only one move? (stalemate check)
 - [ ] Is there a perpetual check I should take — or avoid giving?
 - [ ] Do I have enough material to win? (king + minor piece vs king is a draw)
+- [ ] Is the game dead drawn (e.g. opposite-colored bishops with no pawns)?
+
+## Endgame study notes
+
+____________________
+____________________
+____________________

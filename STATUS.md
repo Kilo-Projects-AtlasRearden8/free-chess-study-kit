@@ -29,17 +29,30 @@ browser and print (`Ctrl+P` / `Cmd+P`) at 100% with background graphics
 enabled. The Markdown files are plain text and can be copied into any notes
 app.
 
+**Verification suite:**
+
+```bash
+python3 kit/verify.py
+```
+
+Runs the build, then checks HTML structure (well-formed tags, charset meta,
+inlined CSS), HTML content (titles, sections, checkbox counts), Markdown
+sources, the exact LICENSE copyright line, and README credit. Exits 0 on
+success.
+
 ## Verification results
 
 - `python3 kit/build.py` — ran clean, wrote all 4 HTML files
+- `python3 kit/verify.py` — **ALL CHECKS PASSED** (48 checks across 6 suites)
 - HTML structure check (html.parser) — all 4 files: no unclosed/mismatched tags, charset meta present, embedded CSS present
-- Content check — each sheet contains its expected title, sections, motifs, and checkboxes (10, 10, 9, 27 checkboxes respectively)
+- Content check — each sheet contains its expected title, sections, motifs, and checkboxes (11, 13, 10, 32 checkboxes respectively)
 - LICENSE — MIT, copyright line exactly `Copyright (c) 2026 Asdale Dynamics, LLC`
 - README — credits Asdale Dynamics, LLC
+- No `.github/workflows` files, no secrets, no remote repos created, not pushed
 
 ## Known gaps
 
-- No automated test suite; verification above is a one-off script run manually
-- HTML is not passed through an external CSS/HTML validator
+- No automated test suite beyond `kit/verify.py`; HTML is not passed through an external CSS/HTML validator
 - Print appearance depends on the browser/printer; @page rules are standard but not universally honored
-- Sheets are US Letter sized
+- Sheets are US Letter sized (A4 support is a one-line CSS edit, documented in README)
+- Markdown converter in `build.py` supports a subset of Markdown (headings, bold, tables, task lists, bullets, horizontal rules) — sufficient for these sheets but not a full CommonMark implementation

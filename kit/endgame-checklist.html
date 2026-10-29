@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Free Chess Study Kit — Asdale Dynamics, LLC</title>
-<style>*Print styles for the Free Chess Study Kit. Each HTML sheet inlines this CSS,
+<style>Print styles for the Free Chess Study Kit. Each HTML sheet inlines this CSS,
 so a printed sheet needs nothing but a printer — no fonts to install, no
-network, no account.*
+network, no account.
 
 :root {
   --ink: #111;
@@ -16,6 +16,7 @@ network, no account.*
   --panel: #f5f5f5;
 }
 
+/* Paper size: change to A4 for international printing */
 @page {
   size: Letter;
   margin: 16mm 14mm 18mm 14mm;
@@ -70,6 +71,9 @@ table {
   margin: 10px 0 20px 0;
   page-break-inside: auto;
 }
+tr {
+  page-break-inside: avoid;
+}
 th, td {
   border: 1px solid var(--line);
   padding: 10px 12px;
@@ -83,21 +87,6 @@ th {
 }
 td { min-height: 46px; }
 tr:first-child td { min-height: 0; }
-.avoid-break { page-break-inside: avoid; }
-.fill {
-  border-bottom: 1.5px solid var(--ink);
-  display: inline-block;
-  min-width: 200px;
-  height: 24px;
-}
-.muted { color: var(--muted); font-size: 13px; }
-.card {
-  border: 1px solid var(--line);
-  padding: 14px 18px;
-  margin: 14px 0;
-  border-radius: 6px;
-  background: var(--paper);
-}
 .task {
   list-style: none;
   padding-left: 6px;
@@ -111,31 +100,13 @@ tr:first-child td { min-height: 0; }
   vertical-align: middle;
   accent-color: var(--ink);
 }
-.big-checkbox {
-  width: 24px;
-  height: 24px;
-  vertical-align: middle;
-  margin-right: 8px;
-  accent-color: var(--ink);
-}
-.note-box {
-  border: 1px solid var(--line);
-  min-height: 70px;
-  padding: 10px 14px;
-  margin: 8px 0 18px 0;
-  border-radius: 6px;
-}
-.small { font-size: 13px; color: var(--muted); }
-.section-break { page-break-before: always; }
 @media print {
   body { font-size: 15px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  .screen-only { display: none; }
   a { color: var(--ink); text-decoration: none; }
 }
 @media screen {
   body { padding: 12px; background: #fafafa; }
-}
-</style>
+}</style>
 </head>
 <body>
 <h1>Endgame Checklist</h1>
@@ -151,6 +122,7 @@ tr:first-child td { min-height: 0; }
 <li><input type='checkbox' disabled > I know key squares and can win with king + pawn vs king</li>
 <li><input type='checkbox' disabled > I know rook-pawn stalemate traps and how to avoid them</li>
 <li><input type='checkbox' disabled > I can defend a pawn down with the king in the square</li>
+<li><input type='checkbox' disabled > I know when to advance my king and when to wait</li>
 </ul>
 <h2>Rook endgames</h2>
 <ul class='task'>
@@ -160,6 +132,7 @@ tr:first-child td { min-height: 0; }
 <li><input type='checkbox' disabled > Lucena position: I can build the bridge and win</li>
 <li><input type='checkbox' disabled > Philidor position: I can draw with the rook on the third rank</li>
 <li><input type='checkbox' disabled > I know when to trade rooks into a won/lost pawn endgame</li>
+<li><input type='checkbox' disabled > I know the "cut-off" rule: keep the enemy king cut off by a file or rank</li>
 </ul>
 <h2>Minor piece endgames</h2>
 <ul class='task'>
@@ -167,6 +140,7 @@ tr:first-child td { min-height: 0; }
 <li><input type='checkbox' disabled > Knights are stronger in closed positions and with pawns on one side</li>
 <li><input type='checkbox' disabled > Bishop pair: two bishops can force the win in many endgames</li>
 <li><input type='checkbox' disabled > I know knight outposts and how to build them</li>
+<li><input type='checkbox' disabled > I know how to stop a lone pawn with a bishop or knight</li>
 </ul>
 <h2>Basic checkmates (practice until you can do them blindfold)</h2>
 <ul class='task'>
@@ -180,6 +154,7 @@ tr:first-child td { min-height: 0; }
 <li><input type='checkbox' disabled > With a big material advantage, watch for stalemate before every move</li>
 <li><input type='checkbox' disabled > King + Queen vs King: don't box the enemy king in with no move</li>
 <li><input type='checkbox' disabled > King + Rook vs King: same idea, one rank at a time</li>
+<li><input type='checkbox' disabled > Watch for stalemate when the enemy king is in the corner</li>
 </ul>
 <h2>Before I resign or agree a draw</h2>
 <ul class='task'>
@@ -187,6 +162,11 @@ tr:first-child td { min-height: 0; }
 <li><input type='checkbox' disabled > Does my opponent have only one move? (stalemate check)</li>
 <li><input type='checkbox' disabled > Is there a perpetual check I should take — or avoid giving?</li>
 <li><input type='checkbox' disabled > Do I have enough material to win? (king + minor piece vs king is a draw)</li>
+<li><input type='checkbox' disabled > Is the game dead drawn (e.g. opposite-colored bishops with no pawns)?</li>
 </ul>
+<h2>Endgame study notes</h2>
+<p>____________________</p>
+<p>____________________</p>
+<p>____________________</p>
 </body>
 </html>

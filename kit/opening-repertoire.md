@@ -13,6 +13,7 @@ Print large, write big. Fill in one line per opening. Bring this to the board.
 | | | | |
 | | | | |
 | | | | |
+| | | | |
 
 **Opening principles checklist**
 - [ ] Control the center (pawns or pieces on d4, e4, d5, e5)
@@ -21,14 +22,17 @@ Print large, write big. Fill in one line per opening. Bring this to the board.
 - [ ] Don't move the same piece twice in the opening
 - [ ] Connect your rooks (open the center, then bring rooks together)
 - [ ] Don't bring the queen out too early
+- [ ] Don't hang pieces (check for forks and pins before every move)
 
 **Traps I like to set**
 1. ____________________
 2. ____________________
+3. ____________________
 
 **Traps to watch out for**
 1. ____________________
 2. ____________________
+3. ____________________
 
 ---
 
@@ -66,9 +70,16 @@ Print large, write big. Fill in one line per opening. Bring this to the board.
 - As White: 1. ______ → ____________________
 - vs 1. e4: ____________________
 - vs 1. d4: ____________________
+- vs everything else: ____________________
 
 **This week I will study**
 - [ ] My White main line (first 6–8 moves)
 - [ ] My Black defense vs 1. e4
 - [ ] My Black defense vs 1. d4
 - [ ] One trap and how to avoid it
+
+**Opening study notes**
+
+____________________
+____________________
+____________________
